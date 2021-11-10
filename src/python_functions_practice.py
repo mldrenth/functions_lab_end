@@ -42,3 +42,5 @@ def number_to_short_month_name(number):
     elif number == 10:
         return "Oct"
     
+def volume_of_cube(length):
+    return pow(length,3)
