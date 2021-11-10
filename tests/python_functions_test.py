@@ -86,10 +86,11 @@ class TestPythonFunctionPractice(unittest.TestCase):
     self.assertEqual(1000, volume_of_cube_result)
 
   #Given a String, return the String reversed
-  @unittest.skip("delete this line to run the test")
+#   @unittest.skip("delete this line to run the test")
   def test_reverse_string(self):
     #add test code here
-    pass
+    string_reversed_result = reverse_string("This is a string!")
+    self.assertEqual("!gnirts a si sihT", string_reversed_result)
 
   #Given a value in farenheit, convert this into celsius.
   @unittest.skip("delete this line to run the test")
